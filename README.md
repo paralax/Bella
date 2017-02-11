@@ -11,35 +11,37 @@ Bella is a robust, `pure python`, post-exploitation and remote administration to
 
 2. `Auto installer!` Just execute the binary, and Bella takes care of the rest - a persistent reverse shell in a hidden location on the hard drive, undetectable by anti-viruses.
 
-1. `Reverse VNC Connection.`
+3. `Upload / Download any file[s]`
+
+4. `Reverse VNC Connection.`
 	
-2. `Stream and save the computer's microphone input.`
+5. `Stream and save the computer's microphone input.`
 	
-3. `Login / keychain password phishing through system prompt.`
+6. `Login / keychain password phishing through system prompt.`
 	
-4. `Apple ID password phishing through iTunes prompt.`
+7. `Apple ID password phishing through iTunes prompt.`
 	
-5. `iCloud Token Extraction.`
+8. `iCloud Token Extraction.`
 	
-6. `Accessing all iCloud services of the user through extracted tokens or passwords.`
+9. `Accessing all iCloud services of the user through extracted tokens or passwords.`
 	
 	`This includes: iCloud Contacts, Find my iPhone, Find my Friends, iOS Backups.`
 	
-7. `Google Chrome Password Extraction.`
+10. `Google Chrome Password Extraction.`
 
-8. `Chrome and Safari History Extraction.`
+11. `Chrome and Safari History Extraction.`
 
-9. `Auto Keychain decryption upon discovery of kc password.`
+12. `Auto Keychain decryption upon discovery of kc password.`
 
-10. `macOS Chat History.`
+13. `macOS Chat History.`
 
-11. `iTunes iOS Backup enumeration.`
+14. `iTunes iOS Backup enumeration.`
 
-12. `Extensive logging of all Bella activity and downloaded files.`
+15. `Extensive logging of all Bella activity and downloaded files.`
 
-13. `VERY comprehensive data storage.` All information that Bella discovers [tokens, passwords, etc] is stored in an encrypted SQL database on the computer running Bella. This information is used for faster function execution, and a "smarter" reverse shell.
+16. `VERY comprehensive data storage.` All information that Bella discovers [tokens, passwords, etc] is stored in an encrypted SQL database on the computer running Bella. This information is used for faster function execution, and a "smarter" reverse shell.
 	
-14. `A lot of other great features!` Mess around with it to see it in action.
+17. `A lot of other great features!` Mess around with it to see it in action.
 
 
 These are some of the features available when we are in the userland. This shell is accessible at any time when the user has an internet connection, which occurs when they are logged in and the computer is not asleep. 
