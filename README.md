@@ -75,13 +75,13 @@ Upon gaining root access, Bella will migrate over to a hidden directory in `/Lib
 
 3. That's it! Bella is all ready to go. Just upload and execute `Bella` on your macOS target.
 4. Now run `Control Center.py` on your macOS control center. It requires no-dependencies [except for mitmproxy if you want to MITM]. It will do some auto-configuration, and you will see something like this after a few seconds. The Control Center will constantly update this selection, for up to 128 separate computers.
-![](Screenshots/Found Clients.png)
+![](Screenshots/Found_Clients.png)
 
 5. Press `Ctrl-C` to choose from the selection, and then type in the number of the computer that you want. You will then be presented with a screen like this.
-![](Screenshots/Command entry.png)
+![](Screenshots/Command_Entry.png)
 
 6. Start running commands! `bella_info` is a great one. Run `manual` to get a full manual of all of the commands. Also, you can hit tab twice to see a list of available commands.
-![](Screenshots/Bella Info.png)
+![](Screenshots/Bella_Info.png)
 
 **Little note**: Bella works across the internet, if you do some configuration. Configure your firewall to forward Bella's port to your Control Center. Other important ports to forward:
 	1) VNC - 5500. 2) Microphone - 2897. 3) MITM - 8081
