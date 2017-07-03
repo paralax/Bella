@@ -72,12 +72,14 @@ Upon gaining root access, Bella will migrate over to a hidden directory in `/Lib
 
 2. Run ./BUILDER and enter the appropriate information. It should look something like this:
 ![](Screenshots/Builder.png)
+
 3. That's it! Bella is all ready to go. Just upload and execute `Bella` on your macOS target.
-4. Now run `Control Center.py` on your macOS control center. It requires no-dependencies [except for mitmproxy if you want to MITM]. It will do some auto-configuration, and you will see something like this after a few seconds.
+4. Now run `Control Center.py` on your macOS control center. It requires no-dependencies [except for mitmproxy if you want to MITM]. It will do some auto-configuration, and you will see something like this after a few seconds. The Control Center will constantly update this selection, for up to 128 separate computers.
 ![](Screenshots/Found Clients.png)
-The Control Center will constantly update this selection, for up to 128 separate computers.
+
 5. Press `Ctrl-C` to choose from the selection, and then type in the number of the computer that you want. You will then be presented with a screen like this.
 ![](Screenshots/Command entry.png)
+
 6. Start running commands! `bella_info` is a great one. Run `manual` to get a full manual of all of the commands. Also, you can hit tab twice to see a list of available commands.
 ![](Screenshots/Bella Info.png)
 
